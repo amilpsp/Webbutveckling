@@ -1,0 +1,25 @@
+.big{
+    font-size: 20px;
+}
+.impact{
+    font-family: Impact, Haettenschweiler,
+    'Arial Narrow Bold', sans-serif;
+}
+.little{
+    font-size: 8px;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style:italic;
+}
