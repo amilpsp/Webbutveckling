@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-auto-rows: repeat(6, 150px) ;
+    grid-auto-rows: repeat(5, 150px) ;
     grid-template-columns: 1fr 2fr;
     grid-auto-flow: row;
     justify-content: center;
@@ -51,12 +51,12 @@ body{
         margin: 20px;
     }
     .small{
+        display: inline-block;
         height: 90px;
-        
         vertical-align: baseline;
     }
     h1{
-        float: center;
+        display: inline-block;
         text-align: center;
     }
 
