@@ -16,8 +16,14 @@
 }
 
 *{
-    
-}
+    font-family: 'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+
+    color: midnightblue;
+    }
 #top{
     background-color:whitesmoke;
     grid-area: top;
@@ -35,7 +41,13 @@ img.align-left{
 nav{
     background-color:whitesmoke;
     grid-area: nav;
+    justify-self: center;
+    padding-left: 30px;
+    padding-right: 40px;
     margin:10px;
+}
+.nav.ul.li{
+    display: inline;
 }
 
 
@@ -56,4 +68,12 @@ aside{
     margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+footer{
+    background-color:whitesmoke;
+    grid-area: footer;
+    justify-self: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
