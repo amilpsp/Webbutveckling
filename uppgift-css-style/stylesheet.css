@@ -22,12 +22,12 @@
         'Lucida Grande',
         'Lucida Sans Unicode',
         Geneva, Verdana, sans-serif;
-    color: midnightblue;
+    color: rgb(17, 63, 163);
 }
 
 
 body{
-    background-color:rgb(61, 67, 75);
+    background-color:rgb(96, 114, 137);
 }
 
 #top{
@@ -63,9 +63,7 @@ body{
 
 
 nav{
-    grid-area: span 2;
-    display: inline-block;
-    background-color:aliceblue;
+    background-color:rgb(14, 54, 140);
     grid-area: nav;
     justify-self: center;
     margin-top:20px;
@@ -74,8 +72,8 @@ nav{
     a{
         padding:10px;
         margin: 5px;
-        background-color: rgb(19, 56, 119);
-        color: aliceblue;
+        background-color: whitesmoke;
+        color: rgb(17, 63, 163);
     }
 
 
@@ -98,7 +96,7 @@ h2, aside>h3{
 
 
 
-article{
+article / .main{
     background-color:whitesmoke;
     margin-right: 20px;
     margin-top: 20px;
@@ -106,9 +104,7 @@ article{
     padding-right: 20px;
     padding-bottom: 10px;
 }
-article>h3,article,h4{
-    padding-left: 1.5em;
-}
+
 .education-and-experience{
     margin-bottom: 20px;
 }
@@ -121,7 +117,7 @@ article>h3,article,h4{
 
 
 footer{
-    background-color:whitesmoke;
+    background-color:rgb(14, 54, 140);
     grid-area: footer;
     justify-self: center;
     padding-top: 15px;
