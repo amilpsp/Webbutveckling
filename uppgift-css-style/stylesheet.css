@@ -1,5 +1,4 @@
 .container {
-/*    max-width: 75% ;*/
     display: grid;
     grid-auto-rows: repeat(6, 150px) ;
     grid-template-columns: 1fr 2fr;
@@ -52,7 +51,7 @@ body{
         margin: 20px;
     }
     .small{
-        height: 70px;
+        height: 90px;
         
         vertical-align: baseline;
     }
@@ -69,8 +68,8 @@ nav{
     justify-self: center;
     margin-top:20px;
     padding: 20px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 110px;
+    padding-right: 110px;
 }
     a{
         display: inline-block;
@@ -147,8 +146,7 @@ fieldset{
 form{
     display: grid;
     margin: 10px;
-    grid-template-rows: repeat(8, em);
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.5fr;
     align-items: baseline;
 }
 form p{
@@ -159,7 +157,7 @@ form p{
     height: 2em;
 }
 textarea{
-    height: 3.5em;
+    height: 4em;
 }
 label{
     padding-top: 1.25em;
@@ -178,7 +176,7 @@ footer{
     justify-self: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 39%;
-    padding-right: 39%;
+    padding-left: 37%;
+    padding-right: 37%;
     margin-bottom: 20px;
 }
