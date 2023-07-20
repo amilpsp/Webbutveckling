@@ -1,7 +1,7 @@
 .container {
     background-color:antiquewhite;
     display: grid;
-    width: minmax(200px, 650px);
+    width: minmax(100px, 650px);
     grid-auto-rows: repeat(6, 150px) ;
     grid-template-columns: 1fr 2fr;
     grid-auto-flow: row;
@@ -21,16 +21,17 @@
         'Lucida Grande',
         'Lucida Sans Unicode',
         Geneva, Verdana, sans-serif;
-
     color: midnightblue;
-    }
+}
+
 #top{
+    display: inline;
     background-color:whitesmoke;
     grid-area: top;
     justify-self: center;
     align-items: baseline;
     margin-top: 20px;
-    margin-top: 10px;
+    
 }
 img.align-left{
     float: left;
@@ -38,42 +39,52 @@ img.align-left{
 }
 
 
+.head-title{}
+
 nav{
     background-color:whitesmoke;
     grid-area: nav;
     justify-self: center;
-    padding-left: 30px;
-    padding-right: 40px;
-    margin:10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top:20px;
 }
-.nav.ul.li{
-    display: inline;
-}
+
+
 
 
 aside{
     background-color:whitesmoke;
     grid-area: aside;
     margin: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 15px;
-
+}
+aside>ul>li{
+    margin-bottom: 1.5em;
 }
 
-.main{
+
+article{
     background-color:whitesmoke;
-    grid-area: main;
     margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
 }
+.education-and-experience{
+    margin-bottom: 20px;
+}
+
+
 
 footer{
     background-color:whitesmoke;
     grid-area: footer;
     justify-self: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 39%;
+    padding-right: 39%;
+    margin-bottom: 20px;
 }
