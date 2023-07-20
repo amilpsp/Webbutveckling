@@ -89,7 +89,7 @@ nav{
     
 
 aside{
-    background-color:whitesmoke;
+    background-color:rgb(200, 214, 234);
     grid-area: aside;
     margin: 20px;
     padding-right: 30px;
@@ -139,17 +139,32 @@ legend{
     text-align: center;
 }
 fieldset{
-
     line-height: 2em;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.text-input, textarea{
-    float: right;
+
+form{
+    display: grid;
+    margin: 10px;
+    grid-template-rows: repeat(8, em);
+    grid-template-columns: 1fr 2fr;
+    align-items: baseline;
+}
+form p{
+    grid-column: span 2;
+    text-align: center;
+}
+.text-input {
+    height: 2em;
+}
+textarea{
+    height: 3.5em;
 }
 label{
-    padding-top: 1.5em;
+    padding-top: 1.25em;
     padding-left: 10%;
+    padding-right: 10px;
 }
 
 #send{
