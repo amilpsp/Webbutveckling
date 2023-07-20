@@ -52,7 +52,7 @@ body{
         margin: 20px;
     }
     .small{
-        height: 100px;
+        height: 70px;
         
         vertical-align: baseline;
     }
@@ -69,6 +69,8 @@ nav{
     justify-self: center;
     margin-top:20px;
     padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
     a{
         padding:10px;
@@ -76,7 +78,13 @@ nav{
         background-color: whitesmoke;
         color: rgb(17, 63, 163);
     }
-
+    nav>a{
+        padding-left: 40px;
+        padding-right: 40px;
+        background-color: whitesmoke;
+        color: rgb(17, 63, 163);
+    }
+    
 
 aside{
     background-color:whitesmoke;
@@ -139,13 +147,10 @@ label{
     padding-top: 1.5em;
 }
 
-/*          ABOUT THE SUBMIT BUTTON:
-        I can't seem to center it propperly and I give up.
-        I'm late enough as it is right now.
 #send{
-    justify-content: center;
+    margin: 20px;
 }
-*/
+
 
 footer{
     background-color:rgb(14, 54, 140);
