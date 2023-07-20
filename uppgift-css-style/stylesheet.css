@@ -167,6 +167,7 @@ label{
 
 #send{
     font-size: large;
+    padding: 5px;
     margin: 20px;
 }
 
