@@ -1,8 +1,11 @@
 .container {
+    background-color:antiquewhite;
     display: grid;
-    grid-auto-rows: minmax(150px, 6) ;
-    grid-template-columns: 1fr, 3fr ;
+    width: minmax(200px, 650px);
+    grid-auto-rows: repeat(6, 150px) ;
+    grid-template-columns: 1fr 2fr;
     grid-auto-flow: row;
+    justify-content: center;
     grid-template-areas: 
     'top top'
     'nav nav'
@@ -12,9 +15,16 @@
     'footer footer';
 }
 
-
+*{
+    
+}
 #top{
+    background-color:whitesmoke;
     grid-area: top;
+    justify-self: center;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-top: 10px;
 }
 img.align-left{
     float: left;
@@ -23,14 +33,27 @@ img.align-left{
 
 
 nav{
+    background-color:whitesmoke;
     grid-area: nav;
-    
+    margin:10px;
 }
+
 
 aside{
+    background-color:whitesmoke;
     grid-area: aside;
+    margin: 20px;
+    padding-right: 20px;
+    padding-left: 15px;
+
 }
 
-.article{
+.main{
+    background-color:whitesmoke;
     grid-area: main;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
