@@ -73,6 +73,8 @@ nav{
     padding-right: 60px;
 }
     a{
+        display: inline-block;
+        text-align: center;
         padding:10px;
         margin: 5px;
         background-color: whitesmoke;
@@ -130,12 +132,14 @@ article{
 
 #get-in-touch{
     grid-area: full;
+    min-width: min-content;
     margin-left: 20px;
 }
 legend{
     text-align: center;
 }
 fieldset{
+
     line-height: 2em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -145,6 +149,7 @@ fieldset{
 }
 label{
     padding-top: 1.5em;
+    padding-left: 10%;
 }
 
 #send{
