@@ -11,6 +11,7 @@
     'aside main'
     'aside main'
     'aside main'
+    'full full'
     'footer footer';
 }
 
@@ -93,10 +94,13 @@ h2, aside>h3{
     background-color: black;
     color: aliceblue;
 }
+#p-references{
+    text-align: center;
+}
 
 
 
-article / .main{
+article{
     background-color:whitesmoke;
     margin-right: 20px;
     margin-top: 20px;
@@ -105,7 +109,7 @@ article / .main{
     padding-bottom: 10px;
 }
 
-.education-and-experience{
+.education-and-experience, #get-in-touch{
     margin-bottom: 20px;
 }
 .institution{
@@ -115,6 +119,33 @@ article / .main{
     padding-top: 1.5em;
 }
 
+
+#get-in-touch{
+    grid-area: full;
+    margin-left: 20px;
+}
+legend{
+    text-align: center;
+}
+fieldset{
+    line-height: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-input, textarea{
+    float: right;
+}
+label{
+    padding-top: 1.5em;
+}
+
+/*          ABOUT THE SUBMIT BUTTON:
+        I can't seem to center it propperly and I give up.
+        I'm late enough as it is right now.
+#send{
+    justify-content: center;
+}
+*/
 
 footer{
     background-color:rgb(14, 54, 140);

@@ -25,11 +25,37 @@
                 <a href="contact-info.html">Contact Info</a>
             </nav>
 
-            <div class="main">
-                <h2>Contact information</h2>
+            
+                <article id="get-in-touch">
+                    
+                        <fieldset>
+                            <form method="post">
+                            <legend><h2>Get in touch</h2></legend>
+                            <p class="small-text"><em>Fields marked with * are mandatory</em>
+                                <br/>
+                                <br/>
+                            </p>
+                            <label>Full name:* <input class="text-input" type="text" required="required"
+                                name="full-name"></label><br/>
+                            <label>Email:* <input class="text-input" type="text" required="required"
+                                name="email"></label><br/>
+                            <label>Mobile:* <input class="text-input" type="text" required="required"
+                                name="mobile"></label><br/>
+                            <label>Organization: <input class="text-input" type="text" 
+                                name="organization"></label><br/>
+                            <label>Job title: <input class="text-input" type="text" 
+                                name="job-title"></label><br/>
+                            <label>Your message or inquiry:
+                                <textarea name="message"></textarea><br/>
+                                <input id="send" type="submit" name="submit" value="Send" />
+                            </label>
+                            
+                            </form>
+                        </fieldset>
 
-            </div>
-           
+                </article>
+                
+            
 
             <footer>
                 <a id="back-to-top" href="#top">Back to top</a>
