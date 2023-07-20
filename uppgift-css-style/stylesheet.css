@@ -25,21 +25,27 @@
 }
 
 #top{
-    display: inline;
     background-color:whitesmoke;
     grid-area: top;
     justify-self: center;
-    align-items: baseline;
     margin-top: 20px;
     
 }
-img.align-left{
-    float: left;
-    margin:20px;
+    .align-left{
+        float: left;
+    }
+    .align-right{
+        float: right;
+    }
+    .small{
+        height: 60px;
+        margin: 20px;
+    }
+
+
+.head-title{
+    vertical-align: center;
 }
-
-
-.head-title{}
 
 nav{
     background-color:whitesmoke;
