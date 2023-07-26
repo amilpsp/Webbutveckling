@@ -29,18 +29,6 @@ body{
     justify-content: center;
     gap: 1em;
 }
-@media (max-width: 1111px){
-    #index-cr{
-        grid-template-rows: repeat(5, fit-content);
-        grid-template-areas: 
-            'head '
-            'nav '
-            'article-1'
-            'article-2'
-            'footer';
-    }
-    
-}
 #index-cr{
 
     grid-template-columns: repeat(2,1fr);
