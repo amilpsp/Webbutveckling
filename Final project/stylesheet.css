@@ -105,6 +105,8 @@ nav>a{
     border-style:ridge;
 }
 /*-------Content stuff---------*/
+
+
 content{
     grid-area: content;
     display: flex;
@@ -112,8 +114,6 @@ content{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 
 .section{
     flex-grow: 1;
@@ -127,7 +127,10 @@ content{
 }
 h2{
     text-align: center;
-    max-width: 330px;
+    /*max-width: 330px;     haven't yet managed to have 
+                            this without breking
+                            the headers' centering.*/
+
 }
 article{
     
