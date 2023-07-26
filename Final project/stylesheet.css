@@ -114,9 +114,7 @@ content{
 }
 
 
-h2{
-    text-align: center;
-}
+
 .section{
     flex-grow: 1;
     width: 343px;
@@ -126,6 +124,10 @@ h2{
         overflow-wrap: normal;
         padding-right: var(--div-padding);
     }
+}
+h2{
+    text-align: center;
+    max-width: 330px;
 }
 article{
     
