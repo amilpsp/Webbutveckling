@@ -29,6 +29,9 @@ body{
     justify-content: center;
     gap: 1em;
 }
+@media screen (min-width: 1111px){
+    
+}
 #index-cr{
 
     grid-template-columns: repeat(2,1fr);
