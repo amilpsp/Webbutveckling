@@ -29,7 +29,16 @@ body{
     justify-content: center;
     gap: 1em;
 }
-@media screen (min-width: 1111px){
+@media (max-width: 1111px){
+    #index-cr{
+        grid-template-rows: repeat(5, fit-content);
+        grid-template-areas: 
+            'head '
+            'nav '
+            'article-1'
+            'article-2'
+            'footer';
+    }
     
 }
 #index-cr{
@@ -39,7 +48,7 @@ body{
     grid-template-areas: 
         'head head'
         'nav nav'
-        'article-1 article-2'
+        'content content'
         'footer footer';
 }
 /*--------welcome header--------*/
@@ -107,17 +116,21 @@ nav>a{
     border-style:ridge;
 }
 /*-------Content stuff---------*/
+content{
+    grid-area: content;
+    display: flex;
+    gap:var(--div-margin);
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-#section-1{
-    grid-area: article-1;
-}
-#section-2{
-    grid-area: article-2;
-}
+
 h2{
     text-align: center;
 }
 .section{
+    flex-grow: 1;
+    width: 343px;
     background-color: var(--white);
     padding: var(--div-padding);
     p{
@@ -126,6 +139,7 @@ h2{
     }
 }
 article{
+    
     display: flex;
     gap: 1em;
     margin: .5em;
