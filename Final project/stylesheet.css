@@ -35,6 +35,7 @@ body{
         'footer footer';
 }
 
+/*-------Nav bar stuff---------*/
 nav{
     grid-area: nav;
     width: 120%;
@@ -54,22 +55,22 @@ nav>a{
     background-color: var(--black);
     color: var(--white);
     padding: var(--div-padding);
+    text-align: center;
 }
 .nav-icon{
     height: 1em;
-    padding-left: 2px;
-    padding-right: 5px;
+    padding-right: 2px;
+    padding: .2em;
+    float: left;
+}
+#here{
+    background-color: var(--accent-color);
+    color: var(--black);
+    border-color: var(--black);
+    border-style:ridge;
 }
 
-
-
-
-
-
-
-
-
-
+/*-----------------footer stuff---------------*/
 footer{
     grid-area: footer;
     width: 120%;
