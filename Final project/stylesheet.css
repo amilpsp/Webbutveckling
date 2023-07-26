@@ -6,8 +6,12 @@
     --main-color: #cfc4b4;
     --div-padding: 5px;
     --div-margin: 10px;
+    --pic-margin: 10px
 }
 
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
 body{
     display: grid;
     background-color: var(--main-color);
@@ -17,17 +21,18 @@ body{
     background-color: var(--black);
     width: 75%;
     height: fit-content;
-    padding: 1.5em;
+    padding: 1em;
     display: grid;
     overflow: wrap;
     float: center;
     justify-self: center;
     justify-content: center;
+    gap: 1em;
 }
 #index-cr{
+
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(4, fit-content);
-    row-gap: 1em;
     grid-template-areas: 
         'head head'
         'nav nav'
@@ -37,12 +42,13 @@ body{
 /*--------welcome header--------*/
 #welcome-header{
     display: grid;
-    gap: var(--div-margin);
+    gap: var(--pic-margin);
+    margin-top: var(--div-margin);
     overflow: hidden;
     justify-self: center;
     align-items: center;
     grid-template-columns: repeat(5, 1fr);
-    gap: var(--div-margin);
+    
     
     grid-area: head;
     min-height: fit-content;
@@ -97,6 +103,39 @@ nav>a{
     border-color: var(--black);
     border-style:ridge;
 }
+/*-------Content stuff---------*/
+
+#section-1{
+    grid-area: article-1;
+}
+#section-2{
+    grid-area: article-2;
+}
+h2{
+    text-align: center;
+}
+.section{
+    background-color: var(--white);
+    padding: var(--div-padding);
+    p{
+        overflow-wrap: normal;
+        padding-right: var(--div-padding);
+    }
+}
+article{
+    display: flex;
+    gap: 1em;
+    margin: .5em;
+    background-color: var(--accent-color);
+    height: fit-content;
+}
+
+article img{
+    margin: var(--pic-margin);
+    max-width: 150px;
+    align-self: center;
+    float: left;
+}
 
 /*-----------------footer stuff---------------*/
 footer{
@@ -112,7 +151,8 @@ footer{
 
     background-color: var(--white-transp);
     padding: var(--div-padding);
-    margin: var(--div-margin);
+    margin-bottom: var(--div-margin);
+  
 }
 .footer-icon{
     height: 2em;
