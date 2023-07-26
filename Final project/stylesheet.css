@@ -17,8 +17,7 @@ body{
     background-color: var(--black);
     width: 80%;
     height: fit-content;
-    padding-bottom: var(--div-padding);
-    padding-top: var(--div-padding);
+    padding: 1.5em;
     display: grid;
     overflow: wrap;
     float: center;
@@ -38,7 +37,7 @@ body{
 /*-------Nav bar stuff---------*/
 nav{
     grid-area: nav;
-    width: 120%;
+    width: 115%;
     justify-self: center;
 
     display: flex;
@@ -56,11 +55,14 @@ nav>a{
     color: var(--white);
     padding: var(--div-padding);
     text-align: center;
+    align-content: center;
+    border-style: ridge;
+    border-color: var(--black);
 }
 .nav-icon{
     height: 1em;
     padding-right: 2px;
-    padding: .2em;
+    padding: .1em;
     float: left;
 }
 #here{
@@ -73,7 +75,7 @@ nav>a{
 /*-----------------footer stuff---------------*/
 footer{
     grid-area: footer;
-    width: 120%;
+    width: 115%;
     justify-self: center;
 
     display: flex;
