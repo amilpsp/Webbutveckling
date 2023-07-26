@@ -1,7 +1,7 @@
 :root{
     --white: #FFFCF5;
     --black: #363627;
-    --accent-color: #F3B93D;
+    --accent-color: #F3D9BD;
     --main-color: #cfc4b4;
     --div-padding: 5px;
     --div-margin: 10px;
@@ -24,10 +24,14 @@ nav{
     margin: var(--div-margin);
 }
 nav>a{
-    
     background-color: #363627;
     color: #cfc4b4;
     padding: var(--div-padding);
+}
+.nav-icon{
+    height: 1em;
+    padding-left: 2px;
+    padding-right: 5px;
 }
 
 
