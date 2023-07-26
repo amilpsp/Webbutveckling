@@ -49,6 +49,9 @@ body{
     color: var(--white);
 }
 #logo{
+    height: 70px;
+    align-self: stretch;
+    background-color: var(--white-transp);
     grid-column-start: 2;
     grid-column-end: 5;
 }
