@@ -15,7 +15,7 @@ body{
 
 .contrast-rectangle{
     background-color: var(--black);
-    width: 80%;
+    width: 75%;
     height: fit-content;
     padding: 1.5em;
     display: grid;
@@ -37,7 +37,7 @@ body{
 /*-------Nav bar stuff---------*/
 nav{
     grid-area: nav;
-    width: 115%;
+    width: 120%;
     justify-self: center;
 
     display: flex;
@@ -75,7 +75,7 @@ nav>a{
 /*-----------------footer stuff---------------*/
 footer{
     grid-area: footer;
-    width: 115%;
+    width: 120%;
     justify-self: center;
 
     display: flex;
