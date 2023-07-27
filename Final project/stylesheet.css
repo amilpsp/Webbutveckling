@@ -5,12 +5,20 @@
     --accent-color: #F3D9BD;
     --main-color: #cfc4b4;
     --div-padding: .5em;
-    --div-margin: 10px;
-    --pic-margin: 10px
+    --div-margin: 1em;
+    --pic-margin: 1em
 }
 
 *{
     font-family:Arial, Helvetica, sans-serif;
+}
+@media (max-width:40em) {
+    p,
+    a{
+        font-size:small;
+    }
+
+
 }
 body{
     display: grid;
@@ -127,6 +135,9 @@ content{
     border-style: solid;
     border-width: .01em;
 }
+.black-bg{
+    background-color: var(--black);
+}
 .white-bg{
     background-color: var(--white);
 }
@@ -146,15 +157,21 @@ content{
 }
 h2{
     text-align: center;
+    padding:var(--div-padding);
+    border-style: mixed;
+    border-bottom-style: solid;
     /*max-width: 330px;     haven't yet managed to have 
                             this without breking
                             the headers' centering.*/
 
 }
 article{
+    margin: var(--div-margin);
     display: inline-block;
     gap: 1em;
     margin: .5em;
+    height: fit-content;
+    min-width: 20em;
 }
 .section-index{
     width: 12em;
