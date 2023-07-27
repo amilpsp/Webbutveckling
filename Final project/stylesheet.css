@@ -38,6 +38,15 @@ body{
         'content content'
         'footer footer';
 }
+#about-cr{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4, fit-content);
+    grid-template-areas: 
+        'head head'
+        'nav nav'
+        'content content'
+        'footer footer';
+}
 /*--------welcome header--------*/
 #welcome-header{
     display: grid;
