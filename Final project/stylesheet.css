@@ -4,7 +4,7 @@
     --black: #363627;
     --accent-color: #F3D9BD;
     --main-color: #cfc4b4;
-    --div-padding: 5px;
+    --div-padding: .5em;
     --div-margin: 10px;
     --pic-margin: 10px
 }
@@ -82,7 +82,7 @@ nav{
     justify-self: center;
 
     display: flex;
-    gap: 10px;
+    gap: .5em;
     align-content: space-between ;
     justify-content: center;
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ nav>a{
 }
 .nav-icon{
     height: 1em;
-    padding-right: 2px;
+    padding-right: .2em;
     padding: .1em;
     float: left;
 }
@@ -157,7 +157,7 @@ article{
     margin: .5em;
 }
 .section-index{
-    width: 343px;
+    width: 12em;
 }
 
 .section-index article{
