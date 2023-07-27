@@ -141,8 +141,7 @@ h2{
                             the headers' centering.*/
 
 }
-article{
-    
+.white-bg article{
     display: flex;
     gap: 1em;
     margin: .5em;
