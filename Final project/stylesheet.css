@@ -124,10 +124,17 @@ content{
     justify-content: center;
 }
 
+.white-bg{
+    background-color: var(--white);
+}
+.accent-bg{
+    background-color: var(--accent-color);
+}
+.white-text{
+    color: var(--white);
+}
 .section{
     flex-grow: 1;
-    width: 343px;
-    background-color: var(--white);
     padding: var(--div-padding);
     p{
         overflow-wrap: normal;
@@ -141,10 +148,17 @@ h2{
                             the headers' centering.*/
 
 }
-.white-bg article{
-    display: flex;
+article{
+    display: inline-block;
     gap: 1em;
     margin: .5em;
+}
+.section-index{
+    width: 343px;
+}
+
+.section-index article{
+    display: flex;
     background-color: var(--accent-color);
     height: fit-content;
 }
