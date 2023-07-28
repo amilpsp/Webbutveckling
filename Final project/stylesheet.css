@@ -196,6 +196,24 @@ article img{
     float: left;
 }
 
+/**/
+ul{
+    border-style: none solid solid solid;
+    padding: var(--div-padding);
+}
+ul li{
+    list-style-position: inside;
+    
+}
+ul li:nth-child(1){
+    list-style-image: url(icons/icons8-phone-50.png);
+}
+ul li:nth-child(2){
+    list-style-image: url(icons/icons8-message-48.png);
+}
+ul li:nth-child(3){
+    list-style-image: url(icons/icons8-location-50.png);
+}
 /*-----------------footer stuff---------------*/
 footer{
     grid-area: footer;
