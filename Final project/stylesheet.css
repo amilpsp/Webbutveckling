@@ -198,7 +198,6 @@ article img{
 
 /* contact page specific stuff*/
 ul{
-    border-style: none solid solid solid;
     padding: var(--div-padding);
 }
 ul li{
