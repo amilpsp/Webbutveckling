@@ -145,6 +145,7 @@ content{
     color: var(--white);
 }
 .section{
+    min-width: 20em;
     flex-grow: 1;
     padding: var(--div-padding);
     p{
@@ -157,9 +158,8 @@ h2{
     text-align: center;
     border-style: mixed;
     border-bottom-style: solid;
-    /*max-width: 330px;     haven't yet managed to have 
-                            this without breking
-                            the headers' centering.*/
+    
+    
 
 }
 article{
@@ -169,7 +169,7 @@ article{
     gap: 1em;
     margin: .5em;
     height: fit-content;
-    min-width: 20em;
+    
 }
 .section-index{
     width: 12em;
