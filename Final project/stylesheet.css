@@ -2,6 +2,7 @@
     --white-transp: #fffcf5d5;
     --white: #fffcf5;
     --black: #363627;
+    --black-transp: #363627e1;
     --accent-color: #F3D9BD;
     --main-color: #cfc4b4;
     --div-padding: .5em;
@@ -25,7 +26,7 @@ body{
 }
 
 .contrast-rectangle{
-    background-color: var(--black);
+    background-color: var(--black-transp);
     width: 75%;
     height: fit-content;
     padding: 1em;
