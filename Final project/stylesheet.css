@@ -15,7 +15,6 @@
     a{
         font-size: small;
     }
-
 }
 @media (min-width:1180px) {
     .tall{
@@ -34,9 +33,12 @@
     .section-index{
         flex-basis: 46%;
     }
+
 }
-@media (min-width:900px){
-    
+@media (min-width:600px){
+ .contrast-rectangle{
+        width: 75%;
+    }   
 }
 
 
@@ -68,8 +70,8 @@ add a pattern or a picture in the background without it
 "taking over" */
 .contrast-rectangle{
     background-color: var(--black-transp);
-    width: 75%;
     height: fit-content;
+
     padding: 1em;
     display: grid;
     overflow: wrap;
