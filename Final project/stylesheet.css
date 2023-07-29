@@ -231,6 +231,8 @@ article img{
     margin: var(--pic-margin)  ;
     max-width: 10em;
     float: left;
+    
+    object-fit: contain;
 }
 
 /*--------------- contact page specific stuff---------------*/
