@@ -225,14 +225,13 @@ h2{
 }
 article{
     margin: var(--div-margin);
-    padding-right: var(--div-padding);
+    padding: var(--div-padding);
     display: inline-block;
     gap: 1em;
     height: fit-content;
     justify-self: stretch;
     
 }
-
 
 .section-index article{ 
     display: flex; 
