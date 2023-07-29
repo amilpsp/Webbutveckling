@@ -24,6 +24,18 @@ body{
     display: grid;
     background-color: var(--main-color);
 }
+.black-bg{
+    background-color: var(--black);
+}
+.white-bg{
+    background-color: var(--white);
+}
+.accent-bg{
+    background-color: var(--accent-color);
+}
+.white-text{
+    color: var(--white);
+}
 
 .contrast-rectangle{
     background-color: var(--black-transp);
@@ -133,12 +145,26 @@ content{
     .tall{
         max-width: 20em;
     } 
+    .news-posts article{
+        flex-basis:45%;
+    }
+    
 }
+.news-posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.news-posts article{
+    padding: var(--div-padding);
+}
+
 
 .wide{
     width: min-content;
 }
 
+/*------portfolio specific stuff-----*/
 .photo-galery{
     display: flex;
     align-content: center;
@@ -147,23 +173,13 @@ content{
     flex-grow: 1;
     min-width: 20em;
 }
+/*-----------------------------------*/
 
 .white-borders article{
     border-style: solid;
     border-width: .01em;
 }
-.black-bg{
-    background-color: var(--black);
-}
-.white-bg{
-    background-color: var(--white);
-}
-.accent-bg{
-    background-color: var(--accent-color);
-}
-.white-text{
-    color: var(--white);
-}
+
 .section{
     min-width: 20em;
     flex-grow: 1;
@@ -190,6 +206,7 @@ article{
     justify-self: stretch;
     
 }
+
 .section-index{
     width: 12em;
 }
@@ -206,7 +223,7 @@ article img{
     float: left;
 }
 
-/* contact page specific stuff*/
+/*--------------- contact page specific stuff---------------*/
 ul{
     padding: var(--div-padding);
 }
