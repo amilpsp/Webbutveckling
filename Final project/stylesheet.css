@@ -261,17 +261,17 @@ ul{
 }
 #contact-ul li:nth-child(1){
     background: url(icons/icons8-phone-50.png) 
-        no-repeat no-repeat; 
+        no-repeat; 
     background-size: 1.2em;
 }
 #contact-ul li:nth-child(2){
     background: url(icons/icons8-message-48.png) 
-        no-repeat no-repeat; 
+        no-repeat; 
     background-size: 1.2em;
 }
 #contact-ul li:nth-child(3){
     background: url(icons/icons8-location-50.png) 
-        no-repeat no-repeat; 
+        no-repeat; 
     background-size: 1.2em;
 }
 
