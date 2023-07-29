@@ -12,6 +12,7 @@
 
 *{
     font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
 @media (min-width:40em) {
     p,
@@ -148,12 +149,18 @@ content{
     .news-posts article{
         flex-basis:45%;
     }
-    
+    .photo-galery img{
+        flex-basis: 45%;
+    }
+    #contact-info{
+        justify-content: space-around;
+        padding: 0 3em;
+    }
 }
 .news-posts{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    
 }
 .news-posts article{
     padding: var(--div-padding);
@@ -170,10 +177,13 @@ content{
     align-content: center;
 }
 .photo-galery img{
-    flex-grow: 1;
-    min-width: 20em;
+    min-width: 25em;
 }
 /*-----------------------------------*/
+
+#contact-info .section{
+    max-width: min-content;
+}
 
 .white-borders article{
     border-style: solid;
@@ -184,6 +194,7 @@ content{
     min-width: 20em;
     flex-grow: 1;
     padding: var(--div-padding);
+    justify-content: center;
     p{
         overflow-wrap: normal;
         padding-right: var(--div-padding);
@@ -201,7 +212,6 @@ article{
     padding-right: var(--div-padding);
     display: inline-block;
     gap: 1em;
-    margin: .5em;
     height: fit-content;
     justify-self: stretch;
     
@@ -226,27 +236,42 @@ article img{
 /*--------------- contact page specific stuff---------------*/
 ul{
     padding: var(--div-padding);
+    padding-left: 3em;
+    
 }
-ul li{
+#contact-ul li{
     list-style-position: inside;
     list-style-type: none;
     padding-left: 2em;
 }
-ul li:nth-child(1){
+#contact-ul li:nth-child(1){
     background: url(icons/icons8-phone-50.png) 
         no-repeat no-repeat; 
     background-size: 1.2em;
 }
-ul li:nth-child(2){
+#contact-ul li:nth-child(2){
     background: url(icons/icons8-message-48.png) 
         no-repeat no-repeat; 
     background-size: 1.2em;
 }
-ul li:nth-child(3){
+#contact-ul li:nth-child(3){
     background: url(icons/icons8-location-50.png) 
         no-repeat no-repeat; 
     background-size: 1.2em;
 }
+
+fieldset{
+    padding: 1.5em;
+}
+input[type=text],
+input[type=date]{
+    float: right;
+}
+legend{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /*-----------------footer stuff---------------*/
 footer{
     grid-area: footer;
@@ -266,10 +291,4 @@ footer{
 }
 .footer-icon{
     height: 2em;
-}
-
-
-
-.circle{
-    border-radius: 50%;
 }
