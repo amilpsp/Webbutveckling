@@ -10,17 +10,41 @@
     --pic-margin: .7em
 }
 
+@media (max-width:40em) {
+    p,
+    a{
+        font-size: small;
+    }
+
+}
+@media (min-width:1180px) {
+    .tall{
+        max-width: 20em;
+    } 
+    .news-posts article{
+        flex-basis:43%;
+    }
+    .photo-galery img{
+        flex-basis: 45%;
+    }
+    #contact-info{
+        justify-content: space-around;
+        padding: 0 3em;
+    }
+    .section-index{
+        flex-basis: 46%;
+    }
+}
+@media (min-width:900px){
+    
+}
+
+
 *{
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1.5em;
 }
-@media (min-width:40em) {
-    p,
-    a{
-        font-size: large;
-    }
 
-}
 body{
     display: grid;
     background-color: var(--main-color);
@@ -38,6 +62,10 @@ body{
     color: var(--white);
 }
 
+
+/*-----Contrast rectangle was intented so that I could later
+add a pattern or a picture in the background without it
+"taking over" */
 .contrast-rectangle{
     background-color: var(--black-transp);
     width: 75%;
@@ -142,21 +170,7 @@ content{
     justify-content: center;
 }
 
-@media (min-width:1180px) {
-    .tall{
-        max-width: 20em;
-    } 
-    .news-posts article{
-        flex-basis:45%;
-    }
-    .photo-galery img{
-        flex-basis: 45%;
-    }
-    #contact-info{
-        justify-content: space-around;
-        padding: 0 3em;
-    }
-}
+
 .news-posts{
     display: flex;
     flex-wrap: wrap;
@@ -165,7 +179,6 @@ content{
 .news-posts article{
     padding: var(--div-padding);
 }
-
 
 .wide{
     width: min-content;
@@ -217,12 +230,9 @@ article{
     
 }
 
-.section-index{
-    width: 12em;
-}
 
-.section-index article{
-    display: flex;
+.section-index article{ 
+    display: flex; 
     background-color: var(--accent-color);
     height: fit-content;
 }
