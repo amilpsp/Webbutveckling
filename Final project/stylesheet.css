@@ -178,6 +178,7 @@ content{
 }
 .news-posts article{
     padding: var(--div-padding);
+    margin:.5em;
 }
 
 .wide{
