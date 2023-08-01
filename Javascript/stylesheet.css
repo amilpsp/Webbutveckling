@@ -11,6 +11,12 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5em;
 }
+@media (max-width:32em) {
+    *:not(h1){
+        font-size: small;
+    }
+        
+}
 
 body{
     color: var(--black);
