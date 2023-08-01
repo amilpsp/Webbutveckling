@@ -7,15 +7,15 @@
     background-color: rgb(215, 213, 213);
 }
 
-*{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.5em;
-}
 @media (max-width:32em) {
     *:not(h1){
         font-size: small;
     }
-        
+}
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
 }
 
 body{
