@@ -13,18 +13,20 @@
         <p>Fyll i namn och ålder i formuläret nedan</p>
 
         <form method="post">
-            <label for="fname">Förnamn: 
+            <label for="fname">Förnamn: </label>
                 <input type="text" id="fname" name="fname" required="required"
-                    maxlength="20"/></label>
-            <label for="lname">Efternamn: 
+                    maxlength="20"/><br/>
+            <label for="lname">Efternamn: </label>
                 <input type="text" id="lname" name="lname" required="required" 
-                    maxlength="20"/></label>
-            <label for="age">Ålder: 
+                    maxlength="20"/><br/>
+            <label for="age">Ålder: </label>
                 <input type="number" id="age" name="age" required="required"
-                min="16" max="110" value="16" step="1"/></label>
+                min="16" max="110" value="16" step="1"/><br/><br/>
             
-            <input type="button" onclick="myFunction()" value="Submit">
+            <input id="button" type="button" onclick="myFunction()" value="Submit">
+
             <p id="demo"></p>
+
             </form>           
     </body>
 </html>
